@@ -1,0 +1,6 @@
+flask==3.0.2
+python-dotenv==1.0.1
+opencv-python==4.9.0.80
+ultralytics==8.2.2
+numpy==1.26.4
+psutil==5.9.8

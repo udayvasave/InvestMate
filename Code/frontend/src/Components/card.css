@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Center cards horizontally */
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .cards {
+    display: flex; /* Set display to flex */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+  }
+  
+  .card {
+    flex: 0 1 calc(30% - 20px); /* Adjust width of each card */
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    /* overflow: hidden; */
+    box-shadow: 2px 4px 8px #ddd;
+    transition: transform 0.3s ease; 
+
+  }
+  
+  .card-body{
+    padding: 0rem 15px;
+    overflow-x: auto;
+  }
+.order-card-box{
+  overflow-y: visible;
+  overflow-x: visible;
+  padding: 0;
+}
+  .card:hover {
+    transform: translateY(-10px); /* Move card up slightly on hover */
+  }
+  .upper-container {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image {
+    width: 100px;
+    height: auto;
+    /* object-fit: cover; */
+  }
+  
+  .lower-container {
+    padding: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .card a {
+    text-decoration: none;
+    color: #28292b;
+  }
+  .links a {
+    text-decoration: none !important;
+    color: #28292b;
+  }
+  
+  .links a:hover {
+    color: blue;
+  }
+  
+  @media only screen and (max-width:950px){
+    .card-container {
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: center; /* Center cards horizontally */
+        flex-direction: column;
+        align-items: center;
+      }
+      .image {
+        width: 70px;
+        height: auto;
+        /* object-fit: cover; */
+      }
+      .cards {
+        display: flex; /* Set display to flex */
+        justify-content: center; /* Distribute items evenly along the main axis */
+        flex-direction: column;
+        align-items: center;
+        overflow-y: visible;
+      
+      }
+      .card{
+        width: 100%;
+      }
+  .upper-container {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1.5rem;
+  }
+  .lower-container {
+    padding: 10px;
+    background-color: #f9f9f9;
+    text-align: left;
+    padding-left: 1.5rem;
+  }
+  .table{
+    width: auto;
+  }
+  }

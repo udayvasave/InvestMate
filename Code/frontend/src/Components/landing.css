@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.videoBearBull{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.brand-container{
+    position: relative;
+    margin-bottom: 0px !important; 
+}
+
+.BrandName{
+display: flex;
+margin: 2rem 4rem 0rem 5rem;
+font-weight: 700;
+font-size: 4rem;
+color: #FF8773;
+}
+
+.mainContainer{
+    margin: 0rem 5rem 0rem 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* flex-direction: column-reverse; */
+}
+
+.text h1{
+    font-size: 2.5rem;
+    color: #28292b;
+}
+
+.text h4{
+    font-size: 1.5rem;
+    color: #28292b;
+}
+
+.text p{
+    margin-top: 1rem;
+    color: #28292b;
+}
+
+.explore-section{
+    margin: 2rem 5rem;
+}
+
+.exploreSecHead{
+font-size: 1.5rem;
+font-weight: 600;
+padding: 0.5rem 0.5rem 2rem 0.5rem;
+}
+
+.getStarted {
+margin: 2rem 0rem 0rem 0rem;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+
+}
+.getStarted a{
+text-decoration: none !important;
+color: #28292b;
+font-weight: 700;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px 40px;
+background-color: #69c969;
+border-radius: 10px;
+}
+.getStarted a span{
+    text-decoration: none;  
+    }
+
+    .arrowRight{
+        padding-left: 0.5rem;
+        padding-bottom: 0rem;
+        color: #28292b;
+        
+    } 
+
+@media only screen and (max-width:950px){
+    .mainContainer{
+        margin: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .explore-section{
+        margin: 1rem 1rem;
+    }
+    .picture img{
+        width: 100%;
+        height: auto;
+    }
+    .text h1{
+        font-size: 2.5rem;
+        color: #28292b;
+    }
+    .getStarted {
+        margin: 0rem 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        
+        }
+        .BrandName{
+            display: flex;
+            /* align-items: center; */
+            /* justify-content: center; */
+            margin: 1rem;
+            
+            font-weight: 700;
+            font-size: 3rem;
+        
+            
+            
+            
+            }
+       
+}
